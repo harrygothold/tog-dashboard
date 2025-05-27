@@ -12,17 +12,17 @@ const navigationLinks = [
   {
     href: '/',
     title: 'home',
-    icon: <FaHome color="#545f71" size={25} />,
+    icon: <FaHome color="var(--primary)" size={25} />,
   },
   {
     href: '/meetings',
     title: 'meetings',
-    icon: <FaCalendar color="#545f71" size={25} />,
+    icon: <FaCalendar color="var(--primary)" size={25} />,
   },
   {
     href: '#',
     title: 'qr code',
-    icon: <FaQrcode color="#545f71" size={25} />,
+    icon: <FaQrcode color="var(--primary)" size={25} />,
   },
 ];
 

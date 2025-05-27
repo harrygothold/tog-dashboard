@@ -16,6 +16,6 @@
 
 .navigationLink:hover,
 .active {
-  background: #f3f0e6;
+  background: var(--secondary);
   border-radius: 50%;
 }
