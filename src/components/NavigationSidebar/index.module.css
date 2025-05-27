@@ -1,0 +1,21 @@
+.navigationSidebar {
+  padding-top: 5rem;
+}
+
+.navigationList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.navigationLink {
+  padding: 0.5rem;
+}
+
+.navigationLink:hover,
+.active {
+  background: #f3f0e6;
+  border-radius: 50%;
+}
