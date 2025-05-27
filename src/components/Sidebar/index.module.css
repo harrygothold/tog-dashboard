@@ -1,0 +1,16 @@
+.sidebar {
+  height: 100dvh;
+  width: 100px;
+  position: fixed;
+  top: 0;
+  border: 1px solid var(--black);
+  border-radius: 5px;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
