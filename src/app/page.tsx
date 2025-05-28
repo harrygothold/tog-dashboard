@@ -1,7 +1,8 @@
-import Viewings from '@/components/Viewings';
-import styles from './page.module.css';
-import { getMeetings, getViewings } from '@/lib/api/availabilityForce';
 import MeetingsSection from '@/components/MeetingsSection';
+import Viewings from '@/components/Viewings';
+import { getMeetings, getViewings } from '@/lib/api/availabilityForce';
+import { Suspense } from 'react';
+import styles from './page.module.css';
 
 export default async function Home() {
   const [viewings, meetings] = await Promise.all([
@@ -10,8 +11,10 @@ export default async function Home() {
   ]);
   return (
     <main className={styles.main}>
-      <MeetingsSection meetings={meetings} />
-      <Viewings viewings={viewings} />
+      <Suspense fallback={<div>Loading...</div>}>
+        <MeetingsSection meetings={meetings} />
+        <Viewings viewings={viewings} />
+      </Suspense>
     </main>
   );
 }
