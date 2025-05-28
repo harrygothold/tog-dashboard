@@ -3,6 +3,7 @@
   --black: #171717;
   --primary: #545f71;
   --secondary: #f3f0e6;
+  --background: #f9f9f9;
 }
 
 html,
@@ -13,7 +14,7 @@ body {
 
 body {
   color: var(--black);
-  background: var(--white);
+  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
