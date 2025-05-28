@@ -1,4 +1,4 @@
-import { Viewing } from '@/lib/api/availabilityForce';
+import { Viewing } from '@/types';
 import ViewingItem from '../ViewingItem';
 
 import styles from './index.module.css';

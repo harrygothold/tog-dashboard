@@ -1,12 +1,16 @@
 import Viewings from '@/components/Viewings';
 import styles from './page.module.css';
-import { getViewings } from '@/lib/api/availabilityForce';
+import { getMeetings, getViewings } from '@/lib/api/availabilityForce';
+import MeetingsSection from '@/components/MeetingsSection';
 
 export default async function Home() {
-  const [viewings] = await Promise.all([getViewings()]);
+  const [viewings, meetings] = await Promise.all([
+    getViewings(),
+    getMeetings(),
+  ]);
   return (
     <main className={styles.main}>
-      <h1>Hello World</h1>
+      <MeetingsSection meetings={meetings} />
       <Viewings viewings={viewings} />
     </main>
   );

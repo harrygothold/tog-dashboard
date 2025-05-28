@@ -1,9 +1,7 @@
 import mockViewings from '../../../mockData/viewings.json';
-
-export type Viewing = {
-  id: string;
-  companyName: string;
-  viewingDate: string;
-};
+import mockMeetings from '../../../mockData/meetings.json';
+import { Meeting, Viewing } from '@/types';
 
 export const getViewings = async (): Promise<Viewing[]> => mockViewings;
+
+export const getMeetings = async (): Promise<Meeting[]> => mockMeetings;

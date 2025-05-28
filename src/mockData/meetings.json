@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "meetingName": "Acme Corp",
+        "meetingStart": "08:30",
+        "meetingEnd": "10:30"
+    },
+    {
+        "id": "2",
+        "meetingName": "Acme Corp",
+        "meetingStart": "08:30",
+        "meetingEnd": "10:30"
+    },
+    {
+        "id": "3",
+        "meetingName": "Acme Corp",
+        "meetingStart": "08:30",
+        "meetingEnd": "10:30"
+    },
+    {
+        "id": "4",
+        "meetingName": "Acme Corp",
+        "meetingStart": "08:30",
+        "meetingEnd": "10:30"
+    },
+    {
+        "id": "5",
+        "meetingName": "Acme Corp",
+        "meetingStart": "08:30",
+        "meetingEnd": "10:30"
+    }
+]
