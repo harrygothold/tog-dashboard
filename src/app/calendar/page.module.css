@@ -1,0 +1,9 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  min-height: 100svh;
+  min-width: 400px;
+  padding: 60px 40px;
+  gap: 64px;
+}

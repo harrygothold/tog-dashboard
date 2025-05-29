@@ -1,0 +1,31 @@
+.meetingRoomItem {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.75);
+  background-color: var(--white);
+  border-radius: 5px;
+  padding: 1.5rem;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.meetingRoomImage {
+  margin: 0 auto;
+}
+
+.meetingRoomName {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.iconWithNumber {
+  margin-top: 0.2rem;
+
+  span {
+    margin-left: 5px;
+  }
+}

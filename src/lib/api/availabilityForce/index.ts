@@ -1,10 +1,6 @@
-import mockViewings from '../../../mockData/viewings.json';
-import mockMeetings from '../../../mockData/meetings.json';
-import { Meeting, Viewing } from '@/types';
 import { delay } from '@/utils/api';
+import mockMeetings from '../../../mockData/meetingRooms.json';
+import { MeetingRoom } from '@/types';
 
-export const getViewings = async (): Promise<Viewing[]> =>
-  delay(3000, mockViewings);
-
-export const getMeetings = async (): Promise<Meeting[]> =>
-  delay(3000, mockMeetings);
+export const getMeetingRooms = async (): Promise<MeetingRoom[]> =>
+  await delay(3000, mockMeetings);

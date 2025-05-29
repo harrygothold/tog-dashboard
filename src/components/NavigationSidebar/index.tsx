@@ -15,8 +15,8 @@ const navigationLinks = [
     icon: <FaHome color="var(--primary)" size={25} />,
   },
   {
-    href: '/meetings',
-    title: 'meetings',
+    href: '/calendar',
+    title: 'calendar',
     icon: <FaCalendar color="var(--primary)" size={25} />,
   },
   {

@@ -1,6 +1,6 @@
 import MeetingsSection from '@/components/MeetingsSection';
 import Viewings from '@/components/Viewings';
-import { getMeetings, getViewings } from '@/lib/api/availabilityForce';
+import { getMeetings, getViewings } from '@/lib/api/customerForce';
 import { Suspense } from 'react';
 import styles from './page.module.css';
 

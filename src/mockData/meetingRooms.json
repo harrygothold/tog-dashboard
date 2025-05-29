@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "meetingRoomName": "Meeting Room",
+        "imageUrl": "https://placehold.co/400/png",
+        "capacity": 10,
+        "price": 100,
+        "isAvailable": true
+    },
+    {
+        "id": "2",
+        "meetingRoomName": "Meeting Room",
+        "imageUrl": "https://placehold.co/400/png",
+        "capacity": 10,
+        "price": 100,
+        "isAvailable": true
+    },
+    {
+        "id": "3",
+        "meetingRoomName": "Meeting Room",
+        "imageUrl": "https://placehold.co/400/png",
+        "capacity": 10,
+        "price": 100,
+        "isAvailable": true
+    },
+    {
+        "id": "4",
+        "meetingRoomName": "Meeting Room",
+        "imageUrl": "https://placehold.co/400/png",
+        "capacity": 10,
+        "price": 100,
+        "isAvailable": true
+    },
+    {
+        "id": "5",
+        "meetingRoomName": "Meeting Room",
+        "imageUrl": "https://placehold.co/400/png",
+        "capacity": 10,
+        "price": 100,
+        "isAvailable": false
+    },
+    {
+        "id": "6",
+        "meetingRoomName": "Meeting Room",
+        "imageUrl": "https://placehold.co/400/png",
+        "capacity": 10,
+        "price": 100,
+        "isAvailable": true
+    },
+    {
+        "id": "7",
+        "meetingRoomName": "Meeting Room",
+        "imageUrl": "https://placehold.co/400/png",
+        "capacity": 10,
+        "price": 100,
+        "isAvailable": true
+    },
+    {
+        "id": "8",
+        "meetingRoomName": "Meeting Room",
+        "imageUrl": "https://placehold.co/400/png",
+        "capacity": 10,
+        "price": 100,
+        "isAvailable": true
+    },
+    {
+        "id": "9",
+        "meetingRoomName": "Meeting Room",
+        "imageUrl": "https://placehold.co/400/png",
+        "capacity": 10,
+        "price": 100,
+        "isAvailable": true
+    },
+    {
+        "id": "10",
+        "meetingRoomName": "Meeting Room",
+        "imageUrl": "https://placehold.co/400/png",
+        "capacity": 10,
+        "price": 100,
+        "isAvailable": true
+    },
+    {
+        "id": "11",
+        "meetingRoomName": "Meeting Room",
+        "imageUrl": "https://placehold.co/400/png",
+        "capacity": 10,
+        "price": 100,
+        "isAvailable": false
+    },
+    {
+        "id": "12",
+        "meetingRoomName": "Meeting Room",
+        "imageUrl": "https://placehold.co/400/png",
+        "capacity": 10,
+        "price": 100,
+        "isAvailable": true
+    }
+]
