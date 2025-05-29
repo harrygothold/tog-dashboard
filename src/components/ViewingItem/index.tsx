@@ -1,8 +1,8 @@
-import { Viewing } from '@/lib/api/customerForce';
 import { convertServerDateStringToReadableDate } from '@/utils/date';
 
 import { FaChevronRight } from 'react-icons/fa';
 import styles from './index.module.css';
+import { Viewing } from '@/types';
 
 export type ViewingItemProps = {
   viewing: Viewing;
